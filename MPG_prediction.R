@@ -1,3 +1,4 @@
+# Required packages : readxl, ggplot2
 require("readxl")
 car_data <- read_excel("/home/shreyashkharat/Datasets/Cardata.xlsx", sheet = "Sheet1")
 pairs(~mpg + cyl + disp + HP + wt + accel, data = car_data)
