@@ -71,3 +71,4 @@ test_poly = predict(model_poly_train, test_set)
 mean((train_set$mpg - train_poly)^2)
 mean((test_set$mpg - test_poly)^2)
 summary(model_poly_train)
+# The Polynomial Regression Model is better than the Linear Regression Model.
